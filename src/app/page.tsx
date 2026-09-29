@@ -15,7 +15,7 @@ interface ProductItem {
   };
 }
 
-const INITIAL_PRODUCTS: ProductItem[] = [{"id":"51b6ab7d-3f0c-49b1-b92c-ec5ff5114c51","tenantId":"c986910c-98b4-49b1-bc1d-8a1bdbb1558e","title":"Apex Carbon Grips & Straps","price":48,"status":"ACTIVE","customFields":{"badge":"Pro Athlete","features":[],"imageUrl":"https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?w=800&q=80","description":"Aerospace carbon fiber weave for maximum barbell grip security and wrist support.","category":"Gear","stock":60},"createdAt":null},{"id":"c4566830-a3ab-4088-b97c-c02466bb93f1","tenantId":"c986910c-98b4-49b1-bc1d-8a1bdbb1558e","title":"HydroFlow Thermal Insulated Flask","price":36,"status":"ACTIVE","customFields":{"badge":"Essential","features":[],"imageUrl":"https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=800&q=80","description":"Triple-wall vacuum insulation keeps ice frozen for 36 hours. 32oz capacity.","category":"Hydration","stock":120},"createdAt":null},{"id":"d36fbc01-c286-46cf-94b4-6b7b612ff93a","tenantId":"c986910c-98b4-49b1-bc1d-8a1bdbb1558e","title":"Elite Pro Resistance Band System","price":65,"status":"ACTIVE","customFields":{"badge":"Top Seller","features":[],"imageUrl":"https://images.unsplash.com/photo-1576678927484-cc907957088c?w=800&q=80","description":"Multi-layered natural latex with heavy-duty carabiners and door anchor system.","category":"Training","stock":85},"createdAt":null}];
+const INITIAL_PRODUCTS: ProductItem[] = [];
 
 export default function SingleFileTenantStore() {
   const [products] = useState<ProductItem[]>(INITIAL_PRODUCTS);
